@@ -1,0 +1,14 @@
+server:
+  websocket:
+    host: 0.0.0.0
+    port: 6767
+
+    bossThreads: 1
+
+    backlog: 1024
+    reuseAddress: true
+    keepAlive: true
+    tcpNoDelay: true
+
+    recvBuffer: 262144 # 256MB
+    sendBuffer: 262144
